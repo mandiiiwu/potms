@@ -15,8 +15,4 @@ for _ in range(int(n/2)):
     except: pass
     print(newlist)
 
-final = 0
-for x in newlist:
-    final += x
-
-print(final)
+print(sum(newlist))
